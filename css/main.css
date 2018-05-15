@@ -1,0 +1,130 @@
+/***BASE STYLES***/
+
+body {
+    font-family: 'Domine', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #010c08;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h2,
+h3,
+h4 {
+    color: #010c08;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+   font-size: 14px;
+   line-height: 21px;
+   padding: 0 30px; 
+}
+
+/***GRID***/
+
+.third-width {
+    width: 399px;
+    float: left;
+    padding: 10px;
+}
+
+/***TOP SECTION***/
+
+header {
+    height: 110px;
+    margin: 0;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 30px 0;
+}
+
+header nav {
+    float: right;
+    margin: 0;
+    padding-top: 68px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: darkslategray; 
+}
+
+/***MAIN***/
+
+main {
+    clear: both;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#main-image {
+    width: 100%;
+    height: auto;
+    clear: both;
+    }
+
+.about h3,
+.food h3,
+.blog h3 {
+    padding-left: 70px;
+}
+
+.about p,
+.food p,
+.blog p {
+    padding-left: 70px;
+}
+
+/***FOOTER***/
+
+footer {
+    margin: 0 auto;
+    padding: 5px;
+    clear: both;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Pacifico', cursive;
+    text-transform: lowercase;
+    font-weight: 400;
+    color: #d73220;
+    font-size: 20px;
+}
